@@ -4,14 +4,14 @@
     "type": "copy_seq2seq",
     "source_tokenizer": {
       "type": "pretrained_transformer",
-      "model_name": "bert-base-cased",
+      "model_name": "bert-base-chinese",
       "start_tokens": [],
       "end_tokens": [],
       "do_lowercase": false
     },
     "target_tokenizer": {
       "type": "pretrained_transformer",
-      "model_name": "bert-base-cased",
+      "model_name": "bert-base-chinese",
       "start_tokens": [],
       "end_tokens": [],
       "do_lowercase": false
@@ -19,7 +19,7 @@
     "source_token_indexers": {
       "tokens": {
         "type": "pretrained_transformer",
-        "model_name": "bert-base-cased",
+        "model_name": "bert-base-chinese",
         "do_lowercase": false,
         "namespace": "bert"
       }
@@ -34,14 +34,14 @@
 	"validation": true,
     "source_tokenizer": {
       "type": "pretrained_transformer",
-      "model_name": "bert-base-cased",
+      "model_name": "bert-base-chinese",
       "start_tokens": [], 
       "end_tokens": [], 
       "do_lowercase": false
     },  
     "target_tokenizer": {
       "type": "pretrained_transformer",
-      "model_name": "bert-base-cased",
+      "model_name": "bert-base-chinese",
       "start_tokens": [], 
       "end_tokens": [], 
       "do_lowercase": false
@@ -49,7 +49,7 @@
     "source_token_indexers": {
       "tokens": {
         "type": "pretrained_transformer",
-        "model_name": "bert-base-cased",
+        "model_name": "bert-base-chinese",
         "do_lowercase": false,
         "namespace": "bert"
       }   
@@ -73,7 +73,7 @@
       "token_embedders": {
         "tokens": {
           "type": "pretrained_transformer",
-	      "model_name": "bert-base-cased",
+	      "model_name": "bert-base-chinese",
           "requires_grad": true
         }
       }
