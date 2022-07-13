@@ -119,7 +119,7 @@
     "max_instances_in_memory": 10000
   },
   "trainer": {
-    "num_epochs": 8,
+    "num_epochs": 5,
     "cuda_device": 0,
     "optimizer": {
       "type": "bert_adam",
